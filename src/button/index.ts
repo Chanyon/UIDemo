@@ -1,8 +1,3 @@
-import { defineComponent, h } from "vue";
+import Button from "./TSXButton";
 
-export default defineComponent({
-  name: "MyButton",
-  render() {
-    return h("button",{type: "button"},"MyButton");
-  }
-});
+export default Button;

@@ -1,5 +1,5 @@
 import { defineComponent, PropType,ToRefs } from "vue";
-import "uno.css";
+import "uno.css"; //test stderr: unknown test
 
 export type IColor = "black" | "white" | "green" | "red" | "purple";
 // export type ISize = "small" | "medium" | "large" | "";
