@@ -2,7 +2,7 @@
 import { defineConfig } from "vite";
 import vue from '@vitejs/plugin-vue';
 import vueJsx from "@vitejs/plugin-vue-jsx";
-import UnoCss from "./config/unocss"
+import UnoCss from "../config/unocss";
 // 配置导出模块类型
 const rollupOptions = {
   external: ["vue","vue-router"],

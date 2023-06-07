@@ -1,33 +1,13 @@
 {
-  "name": "brown-eared-ui-vite",
+  "name": "brown-eared-ui-vite-mono",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "test": "vitest",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "preinstall": "npx only-allow pnpm",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@iconify-json/ic": "^1.1.8",
-    "@vitejs/plugin-vue": "^3.0.1",
-    "@vitejs/plugin-vue-jsx": "^2.0.0",
-    "unocss": "^0.45.6",
-    "vite": "^3.0.5",
-    "vue": "^3.2.37"
-  },
-  "devDependencies": {
-    "@unocss/preset-icons": "^0.45.6",
-    "@vue/test-utils": "2.0.2",
-    "happy-dom": "6.0.4",
-    "vitepress": "0.22.4",
-    "vitepress-theme-demoblock": "1.4.2",
-    "vitest": "0.21.1"
-  }
+  "license": "ISC"
 }
